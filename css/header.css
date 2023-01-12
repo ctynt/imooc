@@ -26,3 +26,27 @@
     height: 72px;
     font-size: 0;
 }
+
+/* 课程导航栏 */
+.item-box {
+    height: 72px;
+    line-height: 72px;
+    margin-left: 20px;
+}
+
+.item-box .nav-item {
+    float: left;
+    padding: 0 16px;
+}
+
+/* new图标 */
+.new {
+    position: relative;
+}
+
+.new img {
+    position: absolute;
+    top: 18px;
+    right: 5px;
+    width: 15px;
+}

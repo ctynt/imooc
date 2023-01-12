@@ -50,3 +50,28 @@
     right: 5px;
     width: 15px;
 }
+
+/* 搜索框 */
+.search {
+    padding: 16px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 40px;
+}
+
+.search div {
+    background-color: #F3F5F6;
+}
+
+.search div input {
+    width: 300px;
+    height: 30px;
+    padding-left: 10px;
+    border: 0;
+    background-color: #F3F5F6;
+}
+
+.search .iconfont {
+    margin-right: 10px;
+    font-size: 20px;
+}

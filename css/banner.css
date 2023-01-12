@@ -1,0 +1,38 @@
+/* banner 整体布局开始 */
+#banner {
+    padding: 32px 0;
+}
+
+.banner-box {
+    height: 482px;
+    /* background-color: rgb(134, 181, 198); */
+}
+
+.g-banner {
+    height: 382px;
+    /* background-color: rgb(226,192,192); */
+}
+
+.course-list {
+    width: 256px;
+    height: 382px;
+    background-color: #39364d;
+    color: #fff;
+    border-radius: 8px 0 0 0 ;
+}
+
+.swiper {
+    width: 896px;
+    height: 382px;
+    background-color: rgb(226,192,192);
+    border-radius: 0 8px 0 0 ;
+}
+
+.sys-class {
+    height: 100px;
+    background-color: rgb(200,228,239);
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 5px 20px 0 rgb(0 0 0 / 30%);
+}
+
+/* banner 整体布局结束 */

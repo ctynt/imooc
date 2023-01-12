@@ -10,3 +10,19 @@
     max-width: 1366px;
     margin: 0 auto;
 }
+
+/* logo */
+.nav-box h1 {
+    width: 126px;
+    height: 72px;
+    background-image: url(../images/logo.png);
+    /* background-size: 126px 72px; */
+    background-size: cover;
+}
+
+.nav-box h1 a {
+    display: block;
+    width: 126px;
+    height: 72px;
+    font-size: 0;
+}

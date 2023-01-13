@@ -1,6 +1,9 @@
 /* banner 整体布局开始 */
 #banner {
+    /* 把banner-box挤到中间 */
     padding: 32px 0;
+    /* 背景过渡自然 */
+    transition: 1s;
 }
 
 .banner-box {
@@ -26,6 +29,7 @@
     height: 382px;
     background-color: rgb(226,192,192);
     border-radius: 0 8px 0 0 ;
+    position: relative;
 }
 
 .sys-class {
@@ -67,4 +71,15 @@
     font-size: 10px;
     color: rgba(255,255,255,.5);
 }
+
 /* 课程分类列表结束 */
+
+/* 轮播图 */
+.swiper a {
+    display: block;
+    height: 382px;
+    /* background-image: url(../images/swiper/swiper-1.jpg);  */
+    background-size: cover;
+    border-radius: 0 8px 0 0;
+    transition: 1s;
+}

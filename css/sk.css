@@ -1,17 +1,17 @@
 /* 秒杀拼团整体布局开始 */
 #sk {
     padding: 20px 0;
-    background-color: lightblue;
+    /* background-color: lightblue; */
 }
 
 .sk-box {
     height: 342px;
-    background: #ccc;
+    /* background: #ccc; */
 }
 
 .sk-box h3 {
     height: 72px;
-    background-color: #fff;
+    /* background-color: #fff; */
 }
 
 .sk-box h3 img {
@@ -27,7 +27,7 @@
 .sk-box .sk-list {
     width: 960px;
     height: 270px;
-    background-color: rgb(155,184,108);
+    /* background-color: rgb(155,184,108); */
 }
 
 /* 秒杀拼团整体布局结束 */
@@ -63,5 +63,55 @@
     height: 30px;
     line-height: 30px;
     background-color: #333;
+}
+
+/* 滚动课程 */
+.sk-list {
+    position: relative;
+    overflow: hidden;
+}
+
+.sk-list ul {
+    position: absolute;
+    left: 0;
+    width: 2800px;
+}
+
+.sk-list ul li {
+    position: relative;
+    float: left;
+    width: 234px;
+    height: 270px;
+    margin-left: 6px;
+    background-color: #fff;
+}
+
+.sk-list ul li:hover {
+    cursor: pointer;
+}
+
+.sk-list ul li img {
+    width: 234px;
+}
+
+.sk-list ul li .title {
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #333;
+}
+
+.sk-list ul li .difficulty {
+    position: absolute;
+    left: 10px;
+    bottom: 45px;
+    font-size: 12px;
+}
+
+.sk-list ul li .price {
+    position: absolute;
+    left: 10px;
+    bottom: 15px;
+    color: #ec1500;
+    font-weight: 600;
 }
 

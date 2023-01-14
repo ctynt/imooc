@@ -2,7 +2,7 @@
  * @Author: yxtong
  * @Date: 2023-01-12 11:09:43
  * @LastEditors: yxtong
- * @LastEditTime: 2023-01-14 13:47:08
+ * @LastEditTime: 2023-01-14 14:07:27
  */
 // 定时器实现关键词切换
 
@@ -238,7 +238,7 @@
 
 // 滚动课程
 {
-    const ul = document.querySelector('./sk-list ul');
+    const ul = document.querySelector('.sk-list ul');
 
     let timer = null;
 

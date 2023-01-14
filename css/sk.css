@@ -1,0 +1,30 @@
+/* 秒杀拼团整体布局开始 */
+#sk {
+    padding: 20px 0;
+    background-color: lightblue;
+}
+
+.sk-box {
+    height: 342px;
+    background: #ccc;
+}
+
+.sk-box h3 {
+    height: 72px;
+    background-color: #fff;
+}
+
+.sk-box .countdown {
+    height: 270px;
+    width: 185px;
+    background-color: #E94443;
+}
+
+.sk-box .sk-list {
+    width: 960px;
+    height: 270px;
+    background-color: rgb(155,184,108);
+}
+
+/* 秒杀拼团整体布局结束 */
+

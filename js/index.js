@@ -2,7 +2,7 @@
  * @Author: yxtong
  * @Date: 2023-01-12 11:09:43
  * @LastEditors: yxtong
- * @LastEditTime: 2023-01-14 13:22:46
+ * @LastEditTime: 2023-01-14 13:47:08
  */
 // 定时器实现关键词切换
 
@@ -185,7 +185,7 @@
 // 倒计时
 {
     // 获取结束时间点的时间戳
-    let endDate = new Date('2023-1-14 23:06:00)');
+    let endDate = new Date('2023-01-14 23:59:59');
     endDate = parseInt(endDate.getTime() / 1000);
     console.log(endDate);
 

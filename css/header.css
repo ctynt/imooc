@@ -3,6 +3,8 @@
     width: 100%;
     height: 72px;
     border-bottom: 1px solid #ccc;
+     
+    background-image: url(../images/bg-index.png);
 }
 
 .nav-box {
@@ -13,7 +15,7 @@
 
 /* logo */
 .nav-box h1 {
-    width: 126px;
+    width: 144px;
     height: 72px;
     background-image: url(../images/logo.png);
     /* background-size: 126px 72px; */
@@ -32,6 +34,7 @@
     height: 72px;
     line-height: 72px;
     margin-left: 20px;
+   
 }
 
 .item-box .nav-item {
@@ -83,6 +86,7 @@
 
 .login-area a {
     padding: 0 10px;
+    color: #fff;
 }
 
 .login-area .shop-cart {
@@ -112,4 +116,8 @@
     border-radius: 50%;
     top: 50%;
     transform: translateY(40%);
+}
+
+.nav-item a {
+    color: #fff;
 }

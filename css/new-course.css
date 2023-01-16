@@ -79,6 +79,14 @@
     border-radius: 8px 8px 0 0;
 }
 
+.new-course-box .new-course-list .icon-new {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 74px;
+    height: 30px;
+}
+
 .new-course-box .new-course-list .title {
     /* margin-left: 10px;  */
     margin-top: 10px;

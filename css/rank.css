@@ -4,7 +4,7 @@
 }
 
 .rank-box {
-    height: 536px;
+    height: 470px;
     /* background-color: rgba(101, 225, 60, 0.333); */
 }
 
@@ -103,7 +103,7 @@
     color: #A6A6A6;
 }
 
-input {
+.button {
     position: absolute;
     background-color: rgb(243, 87, 52);
     color: #fff;

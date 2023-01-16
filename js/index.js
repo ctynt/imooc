@@ -2,7 +2,7 @@
  * @Author: yxtong
  * @Date: 2023-01-12 11:09:43
  * @LastEditors: yxtong
- * @LastEditTime: 2023-01-15 12:51:18
+ * @LastEditTime: 2023-01-17 03:57:06
  */
 // 定时器实现关键词切换
 
@@ -282,6 +282,29 @@
         }
     }
 }
+
+// 课程切换
+{
+    // 获取所有的 a 标签 （tab栏）
+    const tabs = document.querySelectorAll('.learn-box a');
+    // 获取所有的课程列表
+    const uls = document.querySelectorAll('.learn-list ul');
+
+    for (let i = 0; i < tabs.length; i++) {
+        // 循环为所有的a绑定点击事件
+        tabs[i].onclick = function () {
+            // 清除所有的a和ul的样式
+            for (let j = 0; j < tabs.length; j++) {
+                tabs[j].className='';
+                uls[j].className='';
+            }
+            // 给当前选中的a和ul添加样式
+            tabs[i].className = 'active';
+            uls[i].className = 'current';
+        }
+    }
+}
+
 
 
 

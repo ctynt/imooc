@@ -1,0 +1,117 @@
+/* rank整体布局 */
+#rank {
+    padding: 32px 0;
+}
+
+.rank-box {
+    height: 536px;
+    /* background-color: rgba(101, 225, 60, 0.333); */
+}
+
+.rank-box .title {
+    height: 36px;
+    padding: 10px;
+    /* background-color: rgb(194, 241, 240); */
+}
+
+.rank-box .title img {
+    width: 162px;
+}
+
+.rank-list {
+    height: 400px;
+    /* background-color: rgb(210, 110, 110); */
+}
+
+/* 标题栏 */
+.rank-box .title .introduce {
+    font-size: 14px;
+    padding-left: 40px;
+    font-weight: normal;
+}
+
+/* list开始 */
+.rank-item {
+    position: relative;
+    float: left;
+    width: 360px;
+    height: 400px;
+    margin: 0 20px 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,.2);
+}
+
+.rank-item .ranking {
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    top: 0;
+    padding: 0 120px;
+    z-index: -1;
+    
+}
+
+.rank-item .list-title{
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+}
+
+.rank-list .top{
+    width: 20px;
+    height: 24px;
+    padding: 45px 12px;
+}
+
+.rank-list .ranking-img {
+    width: 140px;
+    height: 80px;
+    padding-top: 25px;
+}
+
+.rank-list .top23 .ranking-img{
+    padding: 10px 0;
+}
+
+.rank-list .top23 .top {
+    padding: 35px 12px;
+}
+
+.rank-list .top23 .list-article {
+    padding-top: 10px;
+}
+
+.list-article {
+    display: inline-block;
+    padding-top: 20px;
+    width: 150px;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #545C63;
+    padding-left: 6px;
+}
+
+.list-price {
+    font-size: 12px;
+    color: #ec1500;
+    font-weight: 800;
+    padding-top: 6px;
+}
+
+.list-person {
+    padding-top: 6px;
+    color: #A6A6A6;
+}
+
+input {
+    position: absolute;
+    background-color: rgb(243, 87, 52);
+    color: #fff;
+    border-radius: 15px;
+    border: 0;
+    width: 150px;
+    height: 30px;
+    left: 110px;
+    bottom: 20px;
+}
+

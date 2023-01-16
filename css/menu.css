@@ -1,0 +1,34 @@
+#menu {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 120px;
+    background-repeat: no-repeat;
+    background-size: 128px 0;
+    background-position: -4px 0;
+    /* padding-top: 192px; */
+    background-color: #D72622;
+    color: #fff;
+    border-radius: 0 8px 8px 0;
+    text-align: center;
+    z-index: 100;
+    user-select: none;
+}
+
+#menu img {
+    width: 120px;
+    height: 192px;
+}
+
+#menu li {
+    padding: 16px 0;
+    cursor: pointer;
+    transition: .2s;
+}
+
+#menu li a {
+    color: #fff;
+}
+
+

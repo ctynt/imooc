@@ -1,0 +1,1270 @@
+<!--
+ * @Author: yxtong
+ * @Date: 2023-01-11 22:19:07
+ * @LastEditors: yxtong
+ * @LastEditTime: 2023-01-17 07:06:26
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>慕课首页</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./font/iconfont.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/banner.css">
+    <link rel="stylesheet" href="./css/sk.css">
+    <link rel="stylesheet" href="./css/new-course.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/rank.css">
+    <link rel="stylesheet" href="./css/learn.css">
+    <link rel="stylesheet" href="./css/study.css">
+    <link rel="stylesheet" href="./css/footer.css">
+</head>
+
+<body>
+    <!-- header 区域开始 -->
+    <div id="header" class="bg-white">
+        <!-- 导航栏 -->
+        <div class="nav-box">
+            <!-- logo -->
+            <h1 class="fl"><a href="index.html">慕课网</a></h1>
+            <ul class="item-box fl">
+                <li class="nav-item"><a href="#">免费课</a></li>
+                <li class="nav-item"><a href="#">实战课</a></li>
+                <li class="nav-item new"><a href="#">体系课</a>
+                    <img src="./images/new.png" alt="">
+                </li>
+                <li class="nav-item"><a href="#">慕课教程</a></li>
+                <li class="nav-item"><a href="#">专栏 </a></li>
+                <li class="nav-item new"><a href="#">手记</a>
+                    <img src="./images/new.png" alt="">
+                </li>
+            </ul>
+            <div class="search fl">
+                <div>
+                    <input type="text">
+                    <span class="iconfont icon-sousuo"></span>
+                </div>
+            </div>
+
+            <div class="login-area fr">
+                <!-- 购物车 -->
+                <a href="#" class="shop-cart">
+                    <span class="iconfont icon-tianchongxing-"></span>
+                    <span class="cart-num">8</span>
+                </a>
+                <a href="#">我的课程</a>
+                <a href="#">
+                    <img src="./images/me.jpg" alt="">
+                </a>
+
+            </div>
+        </div>
+    </div>
+    <!-- header 区域结束 -->
+    <!-- banner 区域开始 -->
+    <div id="banner" class="bg-white">
+        <div class="banner-box w">
+            <div class="g-banner">
+
+                <!-- 课程分类列表 -->
+                <div class="course-list fl">
+                    <ul>
+                        <li><span class="title">前端开发：</span>
+                            <span class="sub-title">HTML5/Vue.js/Node.js</span>
+                            <span class="iconfont icon-yousanjiao"></span>
+                        </li>
+                        <li><span class="title">后端开发：</span>
+                            <span class="sub-title">Java/Python/Go</span>
+                            <span class="iconfont icon-yousanjiao"></span>
+                        </li>
+                        <li><span class="title">移动开发：</span>
+                            <span class="sub-title">Flutter/Android/iOS</span>
+                            <span class="iconfont icon-yousanjiao"></span>
+                        </li>
+                        <li><span class="title">计算机基础：</span>
+                            <span class="sub-title">算法/数学/数据库</span>
+                            <span class="iconfont icon-yousanjiao"></span>
+                        </li>
+                        <li><span class="title">前沿技术：</span>
+                            <span class="sub-title">AI/大数据/数据分析</span>
+                            <span class="iconfont icon-yousanjiao"></span>
+                        </li>
+                        <li><span class="title">测试运维：</span>
+                            <span class="sub-title">自动化测试/容器</span>
+                            <span class="iconfont icon-yousanjiao"></span>
+                        </li>
+                        <li><span class="title">更多方向：</span>
+                            <span class="sub-title">产品设计/UI设计/游戏</span>
+                            <span class="iconfont icon-yousanjiao"></span>
+                        </li>
+                    </ul>
+                </div>
+                <!-- 轮播 -->
+                <div class="swiper fr">
+                    <!-- 轮播 -->
+                    <a href="#" target="_blank"></a>
+                    <!-- 左右切换按钮 -->
+                    <a href="javascript:;" class="arrow prev"></a>
+                    <a href="javascript:;" class="arrow next"></a>
+                    <!-- 切换圆点 -->
+                    <ul class="circle-list">
+                        <li class="current"></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 体系课 -->
+            <div class="sys-class">
+
+                <a href="https://class.imooc.com/sale/java2021?mc_marking=27c503d8d83f4e27c222c7f27939e76a&mc_channel=syjptx1"
+                    class="sys-icon-box">
+                    <div class="sys-icon fl" style="background-image: url(./images/system/java.png);"></div>
+                    <div class="title fl">
+                        <h4>Java工程师</h4>
+                        <p>王牌编程语言</p>
+                    </div>
+                </a>
+
+                <a href="https://class.imooc.com/sale/fe2021?mc_marking=ae6147731d01e9b46bd693e45b8ff94e&mc_channel=syjptx2"
+                    class="sys-icon-box">
+                    <div class="sys-icon fl" style="background-image: url(./images/system/h5.png);"></div>
+                    <div class="title fl">
+                        <h4>前端工程师</h4>
+                        <p>零基础首选易上手</p>
+                    </div>
+                </a>
+
+                <a href="https://class.imooc.com/sale/python2021?mc_marking=466c136dad84892934fdb99eb28b7fb9&mc_channel=syjptx3"
+                    class="sys-icon-box">
+                    <div class="sys-icon fl" style="background-image: url(./images/system/python.png);"></div>
+                    <div class="title fl">
+                        <h4>Python工程师</h4>
+                        <p>超强生命力</p>
+                    </div>
+                </a>
+
+                <a href="https://class.imooc.com/sale/newgo?mc_marking=3808803a4d3e44a124f9e0d25242a4e8&mc_channel=syjptx10"
+                    class="sys-icon-box">
+                    <div class="sys-icon fl" style="background-image: url(./images/system/Go.jpg);"></div>
+                    <div class="title fl">
+                        <h4>Go工程师</h4>
+                        <p>未来3-5年刚需人才</p>
+                    </div>
+                </a>
+
+                <a href="https://class.imooc.com/sale/javasenior?mc_marking=a1f07f5a51c8ecfccda5c370c719f026&mc_channel=syjptx12"
+                    class="sys-icon-box">
+                    <div class="sys-icon fl" style="background-image: url(./images/system/java-s.jpg);"></div>
+                    <div class="title fl">
+                        <h4>Java高级开发工程师</h4>
+                        <p>高级人才必修课</p>
+                    </div>
+                </a>
+
+                <div class="line"></div>
+                <a href="#" class="more-btn">
+                    <div>体系课</div>
+                    <div>more
+                        <span class="iconfont icon-angle-right"></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- banner 区域结束 -->
+
+    <!-- 秒杀拼团开始 -->
+    <div id="sk">
+        <div class="sk-box w">
+            <!-- 标题 -->
+            <h3><img src="./images/cate/title-bg6.png" alt=""></h3>
+            <div>
+                <!-- 倒计时 -->
+                <div class="countdown fl">
+                    <h4>限时拼团</h4>
+                    <div class="iconfont icon-shizhong"></div>
+                    <p>拼团倒计时</p>
+                    <div class="timer">
+                        <div id="hour">05</div>
+                        <span>:</span>
+                        <div id="min">33</div>
+                        <span>:</span>
+                        <div id="sec">20</div>
+                    </div>
+                </div>
+
+                <!-- 滚动课程 -->
+                <div class="sk-list fr">
+                    <ul>
+                        <li>
+                            <img src="./images/course/1.png" alt="">
+                            <div class="title">笑傲Java面试</div>
+                            <div class="difficulty">中级·1641人</div>
+                            <div class="price">
+                                <span>299</span>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./images/course/2.png" alt="">
+                            <div class="title">搞定大厂前端</div>
+                            <div class="difficulty">初级·4453人</div>
+                            <div class="price">
+                                <span>299</span>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./images/course/3.png" alt="">
+                            <div class="title">数据可视化</div>
+                            <div class="difficulty">中级·2554人</div>
+                            <div class="price">
+                                <span>388</span>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./images/course/4.png" alt="">
+                            <div class="title">Vue3.0(正式版)</div>
+                            <div class="difficulty">中级·255人</div>
+                            <div class="price">
+                                <span>256</span>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./images/course/5.png" alt="">
+                            <div class="title">C语言系统化精讲</div>
+                            <div class="difficulty">中级·1808人</div>
+                            <div class="price">
+                                <span>299</span>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./images/course/6.png" alt="">
+                            <div class="title">Vue3系统入门与项目实战</div>
+                            <div class="difficulty">中级·2792人</div>
+                            <div class="price">
+                                <span>348</span>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./images/course/7.png" alt="">
+                            <div class="title">中高级Java开发者面试</div>
+                            <div class="difficulty">高级·1266人</div>
+                            <div class="price">
+                                <span>299</span>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./images/course/8.png" alt="">
+                            <div class="title">SpringBoot全栈项目实战</div>
+                            <div class="difficulty">初级·1476人</div>
+                            <div class="price">
+                                <span>388</span>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./images/course/1.png" alt="">
+                            <div class="title">笑傲Java面试</div>
+                            <div class="difficulty">中级·1641人</div>
+                            <div class="price">
+                                <span>299</span>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./images/course/2.png" alt="">
+                            <div class="title">搞定大厂前端</div>
+                            <div class="difficulty">初级·4453人</div>
+                            <div class="price">
+                                <span>299</span>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./images/course/3.png" alt="">
+                            <div class="title">数据可视化</div>
+                            <div class="difficulty">中级·2554人</div>
+                            <div class="price">
+                                <span>388</span>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./images/course/4.png" alt="">
+                            <div class="title">Vue3.0(正式版)</div>
+                            <div class="difficulty">中级·255人</div>
+                            <div class="price">
+                                <span>256</span>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./images/course/5.png" alt="">
+                            <div class="title">C语言系统化精讲</div>
+                            <div class="difficulty">中级·1808人</div>
+                            <div class="price">
+                                <span>299</span>
+                            </div>
+
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- 秒杀拼团结束 -->
+
+    <!-- 新上好课开始 -->
+    <div id="new-course" class="bg-white">
+        <div class="new-course-box w">
+            <h3 class="title">
+                <img src="./images/cate/title-bg3.png" alt="新上好课">
+                <a href="javascript:;" class="active">推荐</a>
+                <a href="javascript:;">前端课程</a>
+                <a href="javascript:;">后端课程</a>
+                <a href="javascript:;">精品免费</a>
+            </h3>
+            <div class="new-course-list">
+                <!-- 推荐 -->
+                <ul class="current">
+                    <li>
+                        <img src="./images/course/recommend/1.png" alt="">
+                        <img src="./images/icon-new.png" class="icon-new" alt="">
+                        <div class="title ellipsis2">
+                            Netty+SpringBoot 开发即时通讯系统
+                        </div>
+                        <div class="difficulty">初级·74人报名</div>
+                        <div class="bottom">
+                            <span class="discount fl">上新特惠</span>
+                            <span class="price fl">￥398.00</span>
+                            <span class="origin-price fl delete-line">￥448.00</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/course/recommend/2.png" alt="">
+                        <img src="./images/icon-new.png" class="icon-new" alt="">
+                        <div class="title ellipsis2">
+                            Python 量化交易工程师养成实战-金融高薪领域
+                        </div>
+                        <div class="difficulty">中级·18人报名</div>
+                        <div class="bottom">
+                            <span class="discount fl">上新特惠</span>
+                            <span class="price fl">￥368.00</span>
+                            <span class="origin-price fl delete-line">￥399.00</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/course/recommend/3.png" alt="">
+                        <img src="./images/icon-new.png" class="icon-new" alt="">
+                        <div class="title ellipsis2">
+                            Pytorch框架全流程开发医学影像端到端判别实战项目
+                        </div>
+                        <div class="difficulty">初级·15人报名</div>
+                        <div class="bottom">
+                            <span class="discount fl">上新特惠</span>
+                            <span class="price fl">￥398.00</span>
+                            <span class="origin-price  fl delete-line">￥448.00</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/course/recommend/4.png" alt="">
+                        <div class="title ellipsis2">
+                            WebGL+Three.js入门与实战，系统学习Web3D技术
+                        </div>
+                        <div class="difficulty">入门·218人报名</div>
+                        <div class="bottom">
+                            <span class="price">￥348.00</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/course/recommend/5.png" alt="">
+                        <div class="title ellipsis2">
+                            NestJS 入门到实战 前端必学服务端新趋势
+                        </div>
+                        <div class="difficulty">中级·210人报名</div>
+                        <div class="bottom">
+                            <span class="price">￥348.00</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/course/recommend/6.png" alt="">
+                        <div class="title ellipsis2">
+                            C#速成指南--从入门到进阶，实战WPF与Unity3D开发
+                        </div>
+                        <div class="difficulty">初级·395人报名</div>
+                        <div class="bottom">
+                            <span class="price">￥388.00</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/course/recommend/7.jpg" alt="">
+                        <div class="title ellipsis2">
+                            前端面试全家桶，从求职准备到面试演练
+                        </div>
+                        <div class="difficulty">中级·89人报名</div>
+                        <div class="bottom">
+                            <span class="price">￥1299.00</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/course/recommend/8.png" alt="">
+                        <div class="title ellipsis2">
+                            Go开发者的涨薪通道，自主开发PaaS平台核心功能
+                        </div>
+                        <div class="difficulty">中级·274人报名</div>
+                        <div class="bottom">
+                            <span class="price">￥348.00</span>
+                        </div>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <img src="./images/course/frontend/1.jpg" alt="">
+                        <img src="./images/icon-new.png" class="icon-new" alt="">
+                        <div class="title ellipsis2">
+                            Vue3+Pinia+Vite+TS 还原高性能外卖APP项目
+                        </div>
+                        <div class="difficulty">入门·61人报名</div>
+                        <div class="bottom">
+                            <span class="discount fl">上新特惠</span>
+                            <span class="price fl">￥268.00</span>
+                            <span class="origin-price fl delete-line">￥299.00</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/course/frontend/2.png" alt="">
+                        <div class="title ellipsis2">
+                            基于Vue3，打造前台+中台通用开发提效解决方案
+                        </div>
+                        <div class="difficulty">高级·540人报名</div>
+                        <div class="bottom">
+                            <span class="price">￥499.00</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/course/frontend/3.png" alt="">
+                        <div class="title ellipsis2">
+                            前端高手养成计划-从前端到后端，全栈开发大型项目
+                        </div>
+                        <div class="difficulty">中级·147人报名</div>
+                        <div class="bottom">
+                            <span class="price">￥1299.00</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/course/frontend/4.png" alt="">
+                        <div class="title ellipsis2">
+                            Node.js工程师养成计划 保姆级教程 快速入门实战首尾
+                        </div>
+                        <div class="difficulty">初级·153人报名</div>
+                        <div class="bottom">
+                            <span class="price">￥999.00</span>
+                        </div>
+                    </li>
+                </ul>
+                <!-- 后端 -->
+                <ul>
+                    <li>
+                        <img src="./images/course/backend/1.png" alt="">
+                        <img src="./images/icon-new.png" class="icon-new" alt="">
+                        <div class="title ellipsis2">
+                            系统解析JDK源码，领略大牛设计思想，JAVA进阶必备
+                        </div>
+                        <div class="difficulty">初级·42人报名</div>
+                        <div class="bottom">
+                            <span class="discount fl">上新特惠</span>
+                            <span class="price fl">￥398.00</span>
+                            <span class="origin-price  fl delete-line">￥488.00</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/course/backend/2.png" alt="">
+                        <img src="./images/icon-new.png" class="icon-new" alt="">
+                        <div class="title ellipsis2">
+                            TensorFlow+CNN实战AI图像处理，轻松入行计算机视觉
+                        </div>
+                        <div class="difficulty">初级·13人报名</div>
+                        <div class="bottom">
+                            <span class="discount fl">上新特惠</span>
+                            <span class="price fl">￥268.00</span>
+                            <span class="origin-price  fl delete-line">￥299.00</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/course/backend/3.png" alt="">
+                        <div class="title ellipsis2">
+                            ES8搜索引擎从基础入门到深度原理，实现综合运用实战
+                        </div>
+                        <div class="difficulty">中级·91人报名</div>
+                        <div class="bottom">
+                            <span class="price">￥348.00</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/course/backend/4.png" alt="">
+                        <div class="title ellipsis2">
+                            云原生+边缘计算项目实战—KubeEdge打造边缘管理平台
+                        </div>
+                        <div class="difficulty">中级·154人报名</div>
+                        <div class="bottom">
+                            <span class="price">￥468.00</span>
+                        </div>
+                    </li>
+                </ul>
+                <!-- 免费 -->
+                <ul>
+                    <li>
+                        <img src="./images/course/free/1.jpg" alt="">
+                        <img src="./images/icon-new.png" class="icon-new" alt="">
+                        <div class="title ellipsis2">
+                            HTML5基础入门与实例
+                        </div>
+                        <div class="difficulty">初级·315人报名</div>
+                        <div class="bottom">
+                            <span class="free">免费</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/course/free/2.png" alt="">
+                        <div class="title ellipsis2">
+                            JDK19 新特性入门与案例实战
+                        </div>
+                        <div class="difficulty">入门·71人报名</div>
+                        <div class="bottom">
+                            <span class="free">免费</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/course/free/3.png" alt="">
+                        <div class="title ellipsis2">
+                            web3.0-区块链 入门指南
+                        </div>
+                        <div class="difficulty">入门·3448人报名</div>
+                        <div class="bottom">
+                            <span class="free">免费</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/course/free/4.png" alt="">
+                        <div class="title ellipsis2">
+                            隐私计算线上慕课
+                        </div>
+                        <div class="difficulty">入门·647人报名</div>
+                        <div class="bottom">
+                            <span class="free">免费</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 新上好课结束 -->
+
+    <!-- 慕课榜单开始 -->
+    <div id="rank">
+        <div class="rank-box w">
+            <h3 class="title">
+                <img src="./images/cate/title-bg5.png" alt="慕课榜单">
+                <span class="introduce">以近7日购买、学习相关数据为依据；每日更新</span>
+            </h3>
+            <ul class="rank-list">
+                <!-- 畅销榜 -->
+                <li class="rank-item shopping-list">
+                    <h4 class="list-title">畅销榜</h4>
+                    <img src="./images/rank/ranking1.png" class='ranking' alt="">
+                    <div class="list">
+                        <img src="./images/rank/top1.png" class="top" alt="">
+                        <img src="./images/rank/ranking1-1.png" class="ranking-img" alt="">
+                        <span class="list-article">SpringvBoot+Vue3前后端分离，实战wiki知识库系统
+                            <div class="list-price">￥299.00</div>
+                            <div class="list-person">1929人正在学</div>
+                        </span>
+                    </div>
+                    <div class="list top23">
+                        <img src="./images/rank/top2.png" class="top" alt="">
+                        <img src="./images/rank/ranking1-2.png" class="ranking-img">
+                        <span class="list-article">SpringBoot2.X + Vue + UniAPP，全栈开发医疗...
+                            <div class="list-price">￥448.00</div>
+                            <div class="list-person">249人正在学</div>
+                        </span>
+                    </div>
+                    <div class="list-1 top23">
+                        <img src="./images/rank/top3.png" class="top" alt="">
+                        <img src="./images/rank/ranking1-3.png" class="ranking-img" alt="">
+                        <span class="list-article">SpringBoot+Vue3 项目实战，打造企业级在线办公...
+                            <div class="list-price">￥339.00</div>
+                            <div class="list-person">1695人正在学</div>
+                        </span>
+                    </div>
+                    <input type="button" value="查看完整榜单>>" class="button">
+                </li>
+                <!-- 新课榜 -->
+                <li class="rank-item class-list">
+                    <h4 class="list-title">新课榜</h4>
+                    <img src="./images/rank/ranking2.png" class='ranking' alt="">
+                    <div class="list">
+                        <img src="./images/rank/top1.png" class="top" alt="">
+                        <img src="./images/rank/ranking2-1.png" class="ranking-img" alt="">
+                        <span class="list-article">Netty+SpringBoot 开发即时通讯系统
+                            <div class="list-price">￥488.00</div>
+                            <div class="list-person">难度 初级</div>
+                        </span>
+                    </div>
+                    <div class="list top23">
+                        <img src="./images/rank/top2.png" class="top" alt="">
+                        <img src="./images/rank/ranking2-2.png" class="ranking-img">
+                        <span class="list-article">Python 量化交易工程师养成实战-金融高薪领域
+                            <div class="list-price">￥399.00</div>
+                            <div class="list-person">难度 中级</div>
+                        </span>
+                    </div>
+                    <div class="list-1 top23">
+                        <img src="./images/rank/top3.png" class="top" alt="">
+                        <img src="./images/rank/ranking2-3.jpg" class="ranking-img" alt="">
+                        <span class="list-article">Vue3+Pinia+Vite+TS 还原高性能外卖APP项目
+                            <div class="list-price">￥299.00</div>
+                            <div class="list-person">难度入门</div>
+                        </span>
+                    </div>
+                    <input type="button" value="查看完整榜单>>" class="button">
+
+
+                </li>
+                <li class="rank-item study-list">
+                    <h4 class="list-title">学习榜</h4>
+                    <img src="./images/rank/ranking3.png" class='ranking' alt="">
+                    <div class="list">
+                        <img src="./images/rank/top1.png" class="top" alt="">
+                        <img src="./images/rank/ranking3-1.png" class="ranking-img" alt="">
+                        <span class="list-article">Python3.8系统入门+进阶（程序员必备第二语言）
+                            <div class="list-price">￥366.00</div>
+                            <div class="list-person">13783人在学</div>
+                        </span>
+                    </div>
+                    <div class="list top23">
+                        <img src="./images/rank/top2.png" class="top" alt="">
+                        <img src="./images/rank/ranking3-2.png" class="ranking-img">
+                        <span class="list-article">前端框架及项目面试 聚焦Vue3/React/Webpack
+                            <div class="list-price">￥399.00</div>
+                            <div class="list-person">4331人在学</div>
+                        </span>
+                    </div>
+                    <div class="list-1 top23">
+                        <img src="./images/rank/top3.png" class="top" alt="">
+                        <img src="./images/rank/ranking3-3.png" class="ranking-img" alt="">
+                        <span class="list-article">全新升级，基于Vue3新标准，打造后台综合解决方案
+                            <div class="list-price">￥458.00</div>
+                            <div class="list-person">1478人在学</div>
+                        </span>
+                    </div>
+                    <input type="button" value="查看完整榜单>>" class="button">
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    <!-- 慕课榜单结束 -->
+
+    <!-- 进站必学开始 -->
+    <div id="learn" class="bg-white">
+        <div class="learn-box w">
+            <h3 class="title">
+                <img src="./images/cate/title-bg4.png" alt="慕课榜单">
+                <a href="javascript:;" class="active">推荐</a>
+                <a href="javascript:;">计算机基础</a>
+                <a href="javascript:;">前端课程</a>
+                <a href="javascript:;">后端课程</a>
+                <a href="javascript:;">精品免费</a>
+            </h3>
+            <div class="learn-list">
+                <!-- 推荐 -->
+                <ul class="current">
+                    <li>
+                        <img src="./images/learn/recommend/1.png" alt="">
+                        <div class="title ellipsis2">
+                            SpringBoot+Vue3 项目实战，打造企业级在线办公系统
+                        </div>
+                        <div class="difficulty">中级·1695人报名</div>
+                        <div class="bottom">
+                            <span class="price">￥399.00</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/learn/recommend/2.png" alt="">
+                        <div class="title ellipsis2">
+                            互联网副业指南 传授思维与方法 启动你的首个项目
+                        </div>
+                        <div class="difficulty">初级·227人报名</div>
+                        <div class="bottom">
+                            <span class="price">￥799.00</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/learn/recommend/3.png" alt="">
+                        <div class="title ellipsis2">
+                            国家级认证-软考高级，一站式通关课程，全力备战2023
+                        </div>
+                        <div class="difficulty">高级·91人报名</div>
+                        <div class="bottom">
+                            <span class="price">￥999.00</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/learn/recommend/4.png" alt="">
+                        <div class="title ellipsis2">
+                            Spring Boot+Vue3前后端分离，实战wiki知识库系统
+                        </div>
+                        <div class="difficulty">初级·1929人报名</div>
+                        <div class="bottom">
+                            <span class="price">￥299.00</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/learn/recommend/5.png" alt="">
+                        <div class="title ellipsis2">
+                            C/C++气象数据中心实战，手把手教你做工业级项目
+                        </div>
+                        <div class="difficulty">中级·751人报名</div>
+                        <div class="bottom">
+                            <span class="price">￥568.00</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/learn/recommend/6.jpg" alt="">
+                        <img src="./images/icon-up.png" alt="" class="icon-up">
+                        <div class="title ellipsis2">
+                            React18 系统精讲 结合TS打造旅游电商平台
+                        </div>
+                        <div class="difficulty">中级·1592人报名</div>
+                        <div class="bottom">
+                            <span class="price">￥299.00</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/learn/recommend/7.png" alt="">
+                        <img src="./images/icon-up.png" alt="" class="icon-up">
+                        <div class="title ellipsis2">
+                            （新升级）重学C++，重构你的C++知识体系
+                        </div>
+                        <div class="difficulty">中级·3421人报名</div>
+                        <div class="bottom">
+                            <span class="price">￥488.00</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/learn/recommend/8.png" alt="">
+                        <img src="./images/icon-up.png" alt="" class="icon-up">
+                        <div class="title ellipsis2">
+                            Python3.8系统入门+进阶（程序员必备第二语言）
+                        </div>
+                        <div class="difficulty">初级·13783人报名</div>
+                        <div class="bottom">
+                            <span class="price">￥366.00</span>
+                        </div>
+                    </li>
+                </ul>
+
+                <!-- 计算机基础 -->
+                <ul>
+                    <li>
+                        <img src="./images/learn/base/1.png" alt="">
+                        <img src="./images/icon-up.png" alt="" class="icon-up">
+                        <div class="title ellipsis2">
+                            (新版)计算机基础，计算机组成原理+操作系统+网络
+                        </div>
+                        <div class="difficulty">中级·7370人报名</div>
+                        <div class="bottom">
+                            <span class="price">￥399.00</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/learn/base/2.png" alt="">
+                        <div class="title ellipsis2">
+                            C语言系统化精讲 重塑编程思想 打造坚实的开发基础
+                        </div>
+                        <div class="difficulty">中级·1809人报名</div>
+                        <div class="bottom">
+                            <span class="price">￥299.00</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/learn/base/3.png" alt="">
+                        <div class="title ellipsis2">
+                            算法与数据结构（C++版）面试/评级的算法复习技能包
+                        </div>
+                        <div class="difficulty">中级·10947人报名</div>
+                        <div class="bottom">
+                            <span class="price">￥266.00</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/learn/base/4.png" alt="">
+                        <div class="title ellipsis2">
+                            大学计算机必修课新讲--编译原理+操作系统+图形学
+                        </div>
+                        <div class="difficulty">中级·1672人报名</div>
+                        <div class="bottom">
+                            <span class="price">￥399.00</span>
+                        </div>
+                    </li>
+                </ul>
+
+                <!-- 前端 -->
+                <ul>
+                    <li>
+                        <img src="./images/learn/frontend/1.png" alt="">
+                        <div class="title ellipsis2">
+                            uni-app从入门到进阶 系统完成项目实战
+                        </div>
+                        <div class="difficulty">初级·802人报名</div>
+                        <div class="bottom">
+                            <span class="price">￥348.00</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/learn/frontend/2.png" alt="">
+                        <img src="./images/icon-up.png" alt="" class="icon-up">
+                        <div class="title ellipsis2">
+                            （最新升级）Vue3从入门到项目实战 掌握完整知识体系
+                        </div>
+                        <div class="difficulty">中级·2793人报名</div>
+                        <div class="bottom">
+                            <span class="price">￥348.00</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/learn/frontend/4.png" alt="">
+                        <div class="title ellipsis2">
+                            Spring Boot+Vue3前后端分离，实战wiki知识库系统
+                        </div>
+                        <div class="difficulty">初级·1929人报名</div>
+                        <div class="bottom">
+                            <span class="price">￥299.00</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/learn/frontend/4.png" alt="">
+                        <img src="./images/icon-up.png" alt="" class="icon-up">
+                        <div class="title ellipsis2">
+                            一天时间高效准备前端技术一面 匹配大厂面试要求
+                        </div>
+                        <div class="difficulty">初级·4454人报名</div>
+                        <div class="bottom">
+                            <span class="price">￥299.00</span>
+                        </div>
+                    </li>
+                </ul>
+                <!-- 后端 -->
+                <ul>
+                    <li>
+                        <img src="./images/learn/backend/1.png" alt="">
+                        <div class="title ellipsis2">
+                            Kubernetes 入门到进阶实战，系统性掌握 K8s 生产实践
+                        </div>
+                        <div class="difficulty">中级·1104人报名</div>
+                        <div class="bottom">
+                            <span class="price">￥299.00</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/learn/backend/2.png" alt="">
+                        <div class="title ellipsis2">
+                            百万级高并发WebRTC流媒体服务器设计与开发
+                        </div>
+                        <div class="difficulty">高级·1852人报名</div>
+                        <div class="bottom">
+                            <span class="price">￥366.00</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/learn/backend/3.png" alt="">
+                        <img src="./images/icon-up.png" alt="" class="icon-up">
+                        <div class="title ellipsis2">
+                            Google资深工程师深度讲解Go语言 由浅入深掌握Go语言
+                        </div>
+                        <div class="difficulty">中级·5766人报名</div>
+                        <div class="bottom">
+                            <span class="price">￥399.00</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/learn/backend/4.png" alt="">
+                        <img src="./images/icon-up.png" alt="" class="icon-up">
+                        <div class="title ellipsis2">
+                            Python爬虫工程师从入门到进阶 大数据时代必备
+                        </div>
+                        <div class="difficulty">中级·2108人报名</div>
+                        <div class="bottom">
+                            <span class="price">￥399.00</span>
+                        </div>
+                    </li>
+                </ul>
+                <!-- 免费 -->
+                <ul>
+                    <li>
+                        <img src="./images/learn/free/1.jpg" alt="">
+                        <div class="title ellipsis2">
+                            初始HTML(5)与CSS(3)-升级版
+                        </div>
+                        <div class="difficulty">入门·1212184人报名</div>
+                        <div class="bottom">
+                            <span class="free">免费</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/learn/free/2.jpg" alt="">
+                        <div class="title ellipsis2">
+                            Java入门第一季（IDEA工具）升级版
+                        </div>
+                        <div class="difficulty">入门·1154469人报名</div>
+                        <div class="bottom">
+                            <span class="free">免费</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/learn/free/3.jpg" alt="">
+                        <div class="title ellipsis2">
+                            JavaScript入门篇
+                        </div>
+                        <div class="difficulty">入门·732790人报名</div>
+                        <div class="bottom">
+                            <span class="free">免费</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/learn/free/4.jpg" alt="">
+                        <div class="title ellipsis2">
+                            C#开发轻松入门
+                        </div>
+                        <div class="difficulty">入门·244124人报名</div>
+                        <div class="bottom">
+                            <span class="free">免费</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/learn/free/5.png" alt="">
+                        <div class="title ellipsis2">
+                            趣味 C++ 入门
+                        </div>
+                        <div class="difficulty">入门·19956人报名</div>
+                        <div class="bottom">
+                            <span class="free">免费</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/learn/free/6.jpg" alt="">
+                        <div class="title ellipsis2">
+                            vue3.0实现todolist
+                        </div>
+                        <div class="difficulty">中级·16790人报名</div>
+                        <div class="bottom">
+                            <span class="free">免费</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/learn/free/7.jpg" alt="">
+                        <div class="title ellipsis2">
+                            Linux速成班
+                        </div>
+                        <div class="difficulty">入门·23129人报名</div>
+                        <div class="bottom">
+                            <span class="free">免费</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/learn/free/8.png" alt="">
+                        <div class="title ellipsis2">
+                            高性能 FastAPI 框架入门精讲
+                        </div>
+                        <div class="difficulty">入门·8270人报名</div>
+                        <div class="bottom">
+                            <span class="free">免费</span>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- 进站必学结束 -->
+
+    <!-- 学习路线开始 -->
+    <div id="study">
+        <div class="study-box w">
+            <h3 class="title">
+                <img src="./images/cate/title-bg9.png" alt="学习路线">
+                <a href="javascript:;" class="active">推荐</a>
+                <a href="javascript:;">前端开发</a>
+                <a href="javascript:;">后端开发</a>
+                <a href="javascript:;">移动开发</a>
+            </h3>
+            <div class="study-list">
+                <!-- 推荐 -->
+                <ul class="current">
+                    <li>
+                        <img src="./images/study/recommend/1.png" alt="">
+                        <div class="title">
+                            本路线精选程序员必修的计算机基础核心知识，有序打基础职场走更远
+                        </div>
+                        <div class="bottom">
+                            <span class="message">3步骤·3门课</span>
+                            <span class="collection">11109收藏</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/study/recommend/2.png" alt="">
+                        <div class="title">
+                            从C/C++语法入门到工业级项目实战，通过上万行代码的项目毒打，让你成为职业的C/C++工程师，具备核心...
+                        </div>
+                        <div class="bottom">
+                            <span class="message">3步骤·3门课</span>
+                            <span class="collection">216收藏</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/study/recommend/3.png" alt="">
+                        <div class="title">
+                            路线吃透面试学问，伴随身为Java工程师的你一路成长，高效充分准备面试拿offer。
+                        </div>
+                        <div class="bottom">
+                            <span class="message">3步骤·3门课</span>
+                            <span class="collection">11213收藏</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/study/recommend/4.png" alt="">
+                        <div class="title">
+                            零基础入门Go语言，在掌握基础语法后向并发提升，并用Go去构建微服务、上手区块链项目。
+                        </div>
+                        <div class="bottom">
+                            <span class="message">4步骤·4门课</span>
+                            <span class="collection">5774收藏</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/study/recommend/5.png" alt="">
+                        <div class="title">
+                            大厂校招、社招 算法数据结构问题一网打尽。
+                        </div>
+                        <div class="bottom">
+                            <span class="message">4步骤·4门课</span>
+                            <span class="collection">45收藏</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/study/recommend/6.png" alt="">
+                        <div class="title">
+                            对标大厂岗位需求，从音视频基础入手、处理核心技术到服务器设计开发，全面培养5G时代人才。
+                        </div>
+                        <div class="bottom">
+                            <span class="message">5步骤·5门课</span>
+                            <span class="collection">1127收藏</span>
+                        </div>
+                    </li>
+                </ul>
+                <!-- 前端 -->
+                <ul>
+                    <li>
+                        <img src="./images/study/frontend/1.png" alt="">
+                        <div class="title">
+                            本路线从Node.js系统入门=》积累项目经验=》深入高阶开发，层层递进，全面深入。
+                        </div>
+                        <div class="bottom">
+                            <span class="message">3步骤·4门课</span>
+                            <span class="collection">4392收藏</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/study/frontend/2.png" alt="">
+                        <div class="title">
+                            路线专为想学Vue却无从下手的人群设计，以实际项目为例，逐层深入，学透Vue。
+                        </div>
+                        <div class="bottom">
+                            <span class="message">4步骤·6门课</span>
+                            <span class="collection">20094收藏</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/study/frontend/3.png" alt="">
+                        <div class="title">
+                            路线从零起步玩转React.js开发，从基础夯实到企业级项目实战，直到源码全覆盖。
+                        </div>
+                        <div class="bottom">
+                            <span class="message">3步骤·4门课</span>
+                            <span class="collection">4771收藏</span>
+                        </div>
+                    </li>
+                </ul>
+                <!-- 后端 -->
+                <ul>
+                    <li>
+                        <img src="./images/study/backend/1.png" alt="">
+                        <div class="title">
+                            路线从零起步，系统培养爬虫工程师，步步为营打造爬虫工程师的核心竞争力。
+                        </div>
+                        <div class="bottom">
+                            <span class="message">4步骤·4门课</span>
+                            <span class="collection">14921收藏</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/study/backend/2.png" alt="">
+                        <div class="title">
+                            本路线旨在帮助想快速掌握SpringBoot应用的工程师，全方位多角度带你升级。
+                        </div>
+                        <div class="bottom">
+                            <span class="message">3步骤·5门课</span>
+                            <span class="collection">11305收藏</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/study/backend/3.png" alt="">
+                        <div class="title">
+                            一举吃透最耗时的数据库，学会数据库的基本使用、业务库的设计与框架，面试收尾升华所学。
+                        </div>
+                        <div class="bottom">
+                            <span class="message">4步骤·4门课</span>
+                            <span class="collection">5888收藏</span>
+                        </div>
+                    </li>
+                </ul>
+                <!-- 移动开发 -->
+                <ul>
+                    <li>
+                        <img src="./images/study/mobile/1.png" alt="">
+                        <div class="title">
+                            涵盖初高级Android工程师的升职加薪关键技术，带你突破晋升过程中的技术瓶颈。聚合热门技术，向架构师...
+                        </div>
+                        <div class="bottom">
+                            <span class="message">4步骤·4门课</span>
+                            <span class="collection">174收藏</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/study/mobile/2.png" alt="">
+                        <div class="title">
+                            精准对标移动端高级工程师的岗位要求，技能步步拔高，是移动端工程师进阶高工不二之选。
+                        </div>
+                        <div class="bottom">
+                            <span class="message">3步骤·4门课</span>
+                            <span class="collection">5754收藏</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/study/mobile/3.png" alt="">
+                        <div class="title">
+                            路线汇集Android高级工程师面试的关键技能，还原面试官视角，助力面试顺利通关。
+                        </div>
+                        <div class="bottom">
+                            <span class="message">4步骤·4门课</span>
+                            <span class="collection">1567收藏</span>
+                        </div>
+                    </li>
+                </ul>
+
+
+
+            </div>
+        </div>
+    </div>
+    <!-- 学习路线结束 -->
+
+    <!-- menu菜单 -->
+    <ul id="menu">
+        <img src="./images/bg-left.png" alt="">
+        <li><a href="#new-course">新上好课</a></li>
+        <li><a href="#rank">慕课榜单</a></li>
+        <li><a href="#learn">进站必学</a></li>
+        <li><a href="#study">学习路线</a></li>
+    </ul>
+
+    <!-- menu菜单结束 -->
+
+    <div class="footer bg-white ">
+        <div class="footer w">
+
+            <div class="help">
+                <a href="">企业服务</a>
+                <a href="">网站地图</a>
+                <a href="">关于我们</a>
+                <a href="">联系我们</a>
+                <a href="">讲师招募</a>
+                <a href="">帮助中心</a>
+                <a href="">意见反馈</a>
+                <a href="">代码托管</a>
+            </div>
+
+            <div class="footer-icon">
+                <div class="footer-item fr">
+                    <span class="iconfont icon-shoucang02"></span>
+                    <div>收藏网站</div>
+                </div>
+                <div class="footer-item fr">
+                    <span class="iconfont icon-weixin-copy"></span>
+                    <div>官方公众号</div>
+                </div>
+                <div class="footer-item fr">
+                    <span class="iconfont icon-weibo"></span>
+                    <div>官方微博</div>
+                </div>
+                <div class="footer-item fr">
+                    <span class="iconfont icon-qq"></span>
+                    <div>官方空间</div>
+                </div>
+            </div>
+
+            <div class="police">Copyright© 2023 imooc.com 京ICP备 12003892号-11<span><img src="./images/beianicon.png" alt=""></span>
+                京公网安备11010802030151号 营业执照</div>
+
+            <div class="link ">
+                <span>友情链接:</span>
+                <a href="">求艺网</a>
+                <a href="">帮考网</a>
+                <a href="">考研网</a>
+                <a href="">精英考试网</a>
+                <a href="">慕课教程</a>
+                <a href="">育路教育</a>
+                <a href="">图片素材</a>
+                <a href="">橡皮牛教育网</a>
+                <a href="">听力课堂</a>
+                <a href="">高顿教育</a>
+                <a href="">可可英语</a>
+                <a href="">W3Cschool</a>
+                <a href="">会计学堂</a>
+                <a href="">招生信息网</a>
+                <a href="">慕课专题</a>
+                <a href="">起点学堂</a>
+                <a href="">溜溜自学网</a>
+                <a href="">在职研究生</a>
+                <a href="">人人都是产品经理</a>
+                <a href="">考研</a>
+                <a href="">节日作文范文</a>
+                <a href="">APP开发</a>
+                <a href="">好发表</a>
+                <a href="">CRMEB</a>
+                <a href="">CG教育</a>
+                <a href="">大风车</a>
+                <a href="">组卷网</a>
+                <a href="">高考志愿填报</a>
+                <a href="">运营营销推广</a>
+                <a href="">西部数码</a>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+    <script src="./js/index.js"></script>
+
+</body>
+
+</html>

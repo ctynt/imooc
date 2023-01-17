@@ -4,6 +4,7 @@
     padding: 32px 0;
     /* 背景过渡自然 */
     transition: 1s;
+    margin-top: 72px;
 }
 
 .banner-box {
